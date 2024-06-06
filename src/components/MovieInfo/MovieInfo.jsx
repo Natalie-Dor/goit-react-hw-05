@@ -12,7 +12,7 @@ export default function MovieInfo({ movie }) {
         <p>User Score: {Math.round(movie.vote_average * 10)}%</p>
         <p>Overview:{movie.overview}</p>
         <p>
-          Genres:{' '}
+          Genres:
           {movie.genres !== undefined &&
             movie.genres.map(ganre => ganre.name).join(', ')}
         </p>

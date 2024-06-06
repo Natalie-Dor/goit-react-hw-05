@@ -32,14 +32,3 @@ export default function HomePage() {
     </section>
   );
 }
-
-// return (
-//   <section >
-//     <h2>Trending today</h2>
-//     {movies.length > 0 && <MovieList movies={movies} />}
-//     {isLoading && <Loader />}
-//     {isError && <p>No movie... Try again...</p>}
-//   </section>
-// );
-// }
-// className={css.section}
